@@ -56,7 +56,7 @@ for (trialIndex = 0; trialIndex < sequence.length; trialIndex++) {
     //sequence.length; trialIndex++) {
     var playsoundTrial = {
         type: "audio-keyboard-response",
-        stimulus: sequence[trialIndex] + ".wav",
+        stimulus: "MSW_" + sequence[trialIndex] + ".wav",
         choices: jsPsych.NO_KEYS,
         trial_ends_after_audio: true,
         prompt: "<p></p>",
