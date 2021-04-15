@@ -1,5 +1,5 @@
 import "./jspsych-image-audio-response-with-animation.js";
-import "./jspsych-image-audio-keyboard-response.js";
+import "./jspsych-audio-keyboard-response.js";
 
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
