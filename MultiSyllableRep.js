@@ -27,8 +27,7 @@ var sequence = [
     "Particularly",
     "Statistician",
     "Especially",
-    "Episcopal",
-    "church",
+    "episcopalchurch",
 ];
 shuffle(sequence);
 var experimentTimeline = [];
