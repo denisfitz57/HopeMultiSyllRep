@@ -1,5 +1,5 @@
 import "./jspsych-image-audio-response-with-animation.js";
-import "./jspsych-audio-keyboard-response.js";
+//import "./jspsych-audio-keyboard-response.js";
 
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -45,7 +45,7 @@ experimentTimeline = experimentTimeline.concat(getIdTrial);
 
 var startScreen = {
     type: "html-button-response",
-    stimulus: "Listen to each word and do your best to repeat what you heard. The red circle shows recording is taking place. Click continue to begin.",
+    stimulus: "Listen to each word and do your best to repeat what you heard. The green bar shows that recording is taking place. Click continue to begin.",
     choices: ["Continue"],
 };
 
