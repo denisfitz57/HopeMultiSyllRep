@@ -1,5 +1,6 @@
 import "./jspsych-image-audio-response-with-animation.js";
 //import "./jspsych-audio-keyboard-response.js";
+var urlvar = jsPsych.data.urlVariables();
 
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -36,6 +37,7 @@ var getIdTrial = {
     type: "survey-text",
     questions: [{
         prompt: "Enter the ID you have been given.",
+        placeholder: urlvar.subjectID,
     }, ],
     preamble: "",
     button_label: "Click to enter ID",
