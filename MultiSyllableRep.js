@@ -95,4 +95,7 @@ experimentTimeline = experimentTimeline.concat(sequenceFinishedText);
 jsPsych.init({
     timeline: experimentTimeline,
     preload: sequence,
+    on_finish: function() {
+        window.close();
+    },
 });
